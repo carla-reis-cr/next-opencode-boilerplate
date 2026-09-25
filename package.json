@@ -1,0 +1,24 @@
+{
+  "name": "next-opencode-boilerplate",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "prd:create": "ts-node scripts/generate-prd.ts",
+    "prd:run": "ts-node scripts/run-prd.ts",
+    "ai:analyze": "ts-node scripts/analyze-repo-skills.ts",
+    "harness:build": "ts-node scripts/compile-harness.ts"
+  },
+  "dependencies": {
+    "next": "^16.3.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.43",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.0"
+  }
+}

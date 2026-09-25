@@ -1,0 +1,29 @@
+{
+  "feature": "Módulo de Relatórios Avançados",
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Criar tipos e interfaces base em TypeScript",
+      "provider": "ollama-small",
+      "model": "qwen2.5-coder:1.5b"
+    },
+    {
+      "id": 2,
+      "title": "Escrever componentes de UI e tabelas com Tailwind",
+      "provider": "ollama-main",
+      "model": "qwen2.5-coder:7b"
+    },
+    {
+      "id": 3,
+      "title": "Implementar query complexa de agregação e otimização de banco",
+      "provider": "deepseek",
+      "model": "deepseek-coder"
+    },
+    {
+      "id": 4,
+      "title": "Desenvolver a arquitetura de segurança e rotas críticas",
+      "provider": "anthropic",
+      "model": "claude-3-5-sonnet-20241022"
+    }
+  ]
+}

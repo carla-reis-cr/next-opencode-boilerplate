@@ -1,0 +1,29 @@
+# Dependências
+/node_modules
+
+# Build e Outputs do Next.js
+/.next
+/out
+/dist
+/build
+
+# Logs
+/logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Variáveis de ambiente e chaves sensíveis
+.env
+.env.local
+.env.*.local
+
+# Arquivos temporários e relatórios do OpenCode / ECC Harness
+.opencode/suggested-skills.json
+.opencode/context-map.json
+.opencode/compiled-rules.md
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
